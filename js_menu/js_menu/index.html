@@ -5,6 +5,19 @@
 	<meta charset="utf-8" />
 </head>
 <body>
+    <div id="container">
+        <a class="mainNav" href="#" id="mainLink" 
+           onmouseover="rolloverMenu(1, 'mainMenu');"
+           onmouseout="rolloverMenu(0, 'mainMenu');"> Menu </a>
 
+        <div class="rolloverMenu" id="mainMenu" style="display: none;" 
+             onmouseover="rolloverMenu(1, 'mainMenu');" 
+             onmouseout="rolloverMenu(0, 'mainMenu');">
+            <a href="#">Home</a>
+            <a href="#">Portfolio</a>
+            <a href="#">About Me</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
 </body>
 </html>
