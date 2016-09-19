@@ -1,22 +1,27 @@
-﻿.container{
+﻿#container{
     position: absolute;
     z-index: 1001;
+}
+
+a {
+    text-decoration: none;
 }
 
 a.mainNav{
     color: white;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 22px;
     height: 40px;
     padding: 0px 10px;
     line-height: 40px;
     float: left;
-    background-color: #178eca;
+    background-color: #2553be;
+    text-decoration: none;
 }
 
 a.mainNav:hover{
     background-color: #2553be;
-    color: #AAAAAA
+    color: white
 }
 
 a.selectedRollover{
@@ -27,7 +32,7 @@ a.selectedRollover{
     padding: 0px 10px;
     line-height: 40px;
     float: left;
-    background-color: #2553be;
+    background-color: #178eca;
 }
 
 .rolloverMenu{
@@ -35,7 +40,7 @@ a.selectedRollover{
     padding: 10px 10px 6px 10px;
     position: absolute;
     z-index: 1000;
-    background-color: #2553be;
+    background-color: #178eca;
     width: 100px;
 }
 
